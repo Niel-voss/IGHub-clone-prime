@@ -1,0 +1,180 @@
+
+
+.left-image {
+  left: -40px;
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+
+}
+.page-content-div {
+  display: flex;
+  vertical-align: top;
+  justify-content: center;
+  margin-top: 0px ;
+  z-index: 500;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  z-index: 500;
+  row-gap: 50px;
+  vertical-align: top;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+
+}
+
+.intro-002, .entrepreneurs {
+  font-size: 80px;
+  font-weight: 1000;
+  text-align: center;
+  margin-right: 0;
+  line-height: 80px;
+  width: 1200px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.commited{
+  font-size: 50px;
+  line-height: 50px;
+  width: 1300px;
+  word-wrap:break-word ;
+  white-space: pre-wrap;
+  margin-left: 50px;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+}
+
+@media (max-width: 320px){
+  .commited-container{
+    margin-left: 1b00px;
+  }
+}
+.intro, .vision, .about, .we-do, .our-program{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500px;
+  justify-content: center;
+}
+
+.intro-box, .vision-box, .about-border, .what-we-do-border, .program-border, .biz-boost-border{
+  border-color: rgb(72, 70, 70);
+  border: solid;
+  align-items: center;
+  width: 200px;
+  margin: 40px auto 20px auto;
+}
+.vision-box, .what-we-do-border{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.intro-003{
+  text-align: center;
+  font-size: 25px;
+  white-space: normal;
+}
+.content-002{
+  position: relative;
+
+}
+
+.chike-btn {
+  color: white;
+  border: none;
+  width: 200px;
+  height: 60px;
+  border-radius: 75px;
+  background-color: #89BE2B;
+  color: white;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+  margin-bottom: 50px;
+  transition:  background-color 0.3s ease
+}
+
+.chike-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.chike-btn:hover {
+  background-color: #FC561B;
+}
+
+
+.right-image{
+  display: inline-block;
+  margin-top: 600px;
+  position: absolute;
+  right: 0px;
+}
+.commited-container{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin-top: 100px;
+  height: 150px;
+  column-gap: 60px;
+  margin-right:auto ;
+  margin-left: auto;
+  width:1300px;
+}
+
+.button-grid button{
+  border-radius: 20px;
+  border-color: #c1e780;
+  background-color: #e9f1da;
+  padding-left: 50px;
+}
+
+
+
+.button-one:hover, .button-two:hover, .button-three:hover{
+  border-bottom: 20px;
+  border-color: #e38d6d;
+  background-color: #efd1c6;
+  transition: 0.3s ease-in-out;
+  cursor:default;
+}
+
+.button-one-content-left, .button-two-content-left, .button-three-content-left{
+  display: inline-block;
+  font-size: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: -100px;
+}
+
+.button-one-content-right, .button-two-content-right, .button-three-content-right{
+  display: inline-block;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+

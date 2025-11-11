@@ -1,0 +1,91 @@
+
+.curved-sides-header {
+  background-color: rgb(244, 240, 240);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  top: -170px;
+  z-index: 999;
+width: 1200px;
+margin-top: 300px;
+position: fixed;
+transform: translateY(-100%);
+transition: opacity 0.4s ease, transform 0.4s ease;
+opacity: 1;
+
+}
+
+.curved-sides-header.hide {
+  opacity: 0;
+  transform: translateY(-50%) translateY(-20px);
+  pointer-events: none;
+}
+
+.header-container{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.IGhub-logo {
+  width: 120px;
+  justify-content: center;
+  margin: 30px 10px 20px 40px;
+}
+
+.menu {
+  left: 400px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  top: auto;
+  bottom: auto;
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+}
+
+
+.get-started-btn {
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 75px;
+  background-color: #89BE2B;
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+  position: absolute;
+  right: -320px;
+  top: -15px;
+  display: inline-block;
+    transition: 0.3s ease-out;
+}
+
+.get-started-btn:hover {
+  background-color: #FC561B;
+ 
+}
+
+
+.container-img {
+  background-image: linear-gradient(rgba(36, 36, 36, 0.5),rgba(244, 244, 244, 0.9)),
+  url(images/f721c36d-0932-4bcc-9489-35c4f5f3f9c7.png);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 1450px){
+  .container-img{
+    width: 1350px;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
