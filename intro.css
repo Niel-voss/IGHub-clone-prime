@@ -31,7 +31,7 @@
 
 @media(max-width: 768px) and (max-width: 481px){
   .page-content {
-    width: 100%;
+    width: 768px;
   }
 }
 
