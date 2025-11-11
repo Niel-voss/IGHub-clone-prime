@@ -78,4 +78,15 @@ opacity: 1;
   position: relative;
   
 }
+@media (max-width: 1450px){
+  .container-img{
+    width: 100%;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
 
